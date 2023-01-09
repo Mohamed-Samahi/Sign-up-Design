@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link style sheet -->
+    <link rel="stylesheet" href="./CSS/Sign-up.CSS">
+
+    <!-- link font awesome style sheet -->
+    <link rel="stylesheet" href="./CSS/all.min.css">
+
+    <title>Sign Up</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="left-section">
+                <img src="./Images/pexels-cottonbr.png" alt="">
+                <h1>G-Lab</h1>
+                <p>A virtual community for gamers to stream and hold events online</p>
+            </div>
+            <div class="right-section">
+    
+                <div class="language"></div>
+    
+                <div class="sign">
+                    <h1>Sign Up to G-Lab</h1>
+                    <p>Already have an account? <a href="">Log In</a></p>
+    
+                    <div class="icons">
+                        <button class="google">
+                            <ion-icon name="logo-google"></ion-icon>
+                            Sign up with Google
+                        </button>
+                        <button class="facebook"><ion-icon name="logo-facebook"></ion-icon></button>
+                        <button class="apple"><ion-icon name="logo-apple"></ion-icon></button>
+                    </div>
+    
+                    <p class="or">- or -</p>
+    
+                    <form action="">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" name="Full-Name" id="fullName" placeholder="Ex: Mohamed Samahi">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="Email" id="email" placeholder="Ex: mohamedsamahi2002@gmail.com">
+                        <label for="pass">Password</label>
+                        <input type="password" minlength="8" name="Pass" id="pass" placeholder="8 characters including Caps And Numbers">
+
+                        <div class="strength">
+                            <h4>Password Strength</h4>
+                            <div class="test">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="mark">
+                            <input type="checkbox" name="" id="check">
+                            <label for="check">I agree to the <a href="">terms of service</a> and <a href="">privacy policy</a></label>
+                        </div>
+                        <button type="submit">Create Account</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- main script page -->
+    <script src="./Sign-up.JS"></script>
+    
+    <!-- ionicon package -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
